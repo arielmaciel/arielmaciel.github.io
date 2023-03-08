@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Proyecto CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/016fa916e9.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                  <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                  <a href="#info">Información</a>
+                </li>
+                <li>
+                  <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <img src="images/juanPerez.jpg" alt="foto de perfil"/>
+            <h1 class="header-h1">Jorge Domínguez</h1>
+            <h2 class="header-h2">Desarrollador de Software</h2>
+        </section>
+        
+        <section id="info">
+            <div>
+                <h2>Experiencia</h2>
+                <i class="fa-solid fa-laptop-file"></i>
+                <ul>
+                  <li>
+                    <h3>Desarrollador de Software</h3>
+                    <p>Corporación XYZ, 2018 - actualidad</p>
+                    <ul>
+                      <li>Desarrollé y mantuve aplicaciones de software usando Java y Python.</li>
+                      <li>Colaboré con equipos multifuncionales para identificar y solucionar errores de software.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <h3>Pasante de Ingeniería de Software</h3>
+                    <p> Compañía ABC, 2017 - 2018</p>
+                    <ul>
+                      <li>Asistí a desarrolladores de software senior en la codificación y prueba de aplicaciones de software.</li>
+                      <li>Participé en revisiones de código y contribuí en proyectos de equipo.</li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+              
+              <div>
+                <h2>Educación</h2>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <ul>
+                  <li>
+                    <h3>Licenciatura en Ciencias de la Computación</h3>
+                    <p>Universidad de XYZ, 2017</p>
+                  </li>
+                </ul>
+            </div>
+              
+              <div>
+                <h2>Habilidades</h2>
+                <i class="fa-solid fa-laptop-code"></i>
+                <ul>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+            </div>
+            
+            </section>
+
+        <section id="contacto">
+            <h2>Contáctese conmigo</h2>
+            <form>
+                <div>
+                    <label>Nombre y Apellido</label>
+                    <input type="text" placeholder="Juan Perez">
+                </div>
+                <div>
+                    <label>Asunto</label>
+                    <input type="text" placeholder="Escriba un asunto" >
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea cols="50" rows="10" placeholder="Deje un mensaje" ></textarea>
+
+                </div>
+                <button type="button" id='boton'>Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <script src="function.js"></script>
+  </body>
+</html>

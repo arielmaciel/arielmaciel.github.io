@@ -1,0 +1,78 @@
+html {
+    font-family: 'Nova Round', cursive;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+section{
+    height: 90vh ;
+}
+
+section#inicio{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin:50px;
+ }
+
+section#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1  {
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+h2  {
+    font-size: 2rem;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    text-decoration:none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color:lightgray
+}
+
+nav ul li{
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 15px 20px;
+    background-color: snow;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 125px;
+}
+
+img {
+    border-radius: 50%;
+    margin: 20px;
+}
